@@ -5,60 +5,54 @@
     padding: 0px;
 }
 body{
-    width: 15em;
-    height: 25em;
-    border: 3px rgba(128, 128, 128, 0.534) inset; 
-    background-color: rgb(248, 248, 248);
     font-family: 'Magra', sans-serif;
     font-size: 1em;
 }
-.caja{
+.container{
+    /* width: 100vw; */
+    height: 100vh;
+    border: solid 3px rgba(0, 0, 0, 0.507);
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+    gap: 20px;
 }
 .logo{
-    display: flex;
-    width: 60%;
-    height: 40%; 
-    padding: 1rem;
-    justify-content: center;
-    
-
+    width: 110px;
+    height: 110px; 
 }
 .inicio{
-    padding-bottom: 1rem;
     text-align: center;
     font-size: 1rem;
 }
 .formulario{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .mail, .password{
-    display: inline-block;
     border: 0.1rem grey solid;
     padding: 0.5rem;
-    border-radius: 0.3em;
+    border-radius: 0.6em;
 }
 .entrar{
     width: 14em;
     height: 3em;
     color: white;
     background-color: rgb(24, 11, 143);
-    display: inline-block;
     text-align: center;
     padding: 0.2rem;
     margin: 0.5rem;
     border: white;
-
+    cursor: pointer;
 }
 .olvido{
     color: black;
     text-decoration: none;
-    display: inline-block;
-    width: max-content;
     padding: 0.4rem;
-    margin: 1rem;
     border: 0.2rem solid grey;
     border-radius: 2rem;
-    justify-content: center;
 }
